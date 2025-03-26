@@ -9,6 +9,12 @@
 - 自动清理过期图片
 - 支持自定义配置
 
+ ## 安装方法
+
+1. #installp https://github.com/jiushinaozhewan/Siliconflow2cow.git
+2. #scanp
+3. 配置config.json
+
 ## 使用方法
 
 1. 在配置文件中设置你的认证令牌（auth_token）
