@@ -1,4 +1,4 @@
-# Siliconflow2cowPlus 插件
+# Siliconflow2cowPlus 插件  (包含免费的kolors模型)
 
 这是一个基于 Siliconflow2cow 的增强版图像生成插件，支持通过简单的命令生成高质量图片。
 
@@ -13,7 +13,7 @@
 
 1. 在配置文件中设置你的认证令牌（auth_token）
 2. 使用以下命令格式生成图片：
-   - `绘 一只可爱的猫`
+   - `绘 一只可爱的猫 -m kolors ---16:9`
    - `draw a cute cat`
 
 ## 配置说明
