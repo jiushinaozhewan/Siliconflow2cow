@@ -1,0 +1,33 @@
+{
+  "auth_token": "your_api_token_here",
+  "enhancer_auth_token": "",
+  "chat_api_url": "https://api.siliconflow.cn/v1/chat/completions",
+  "chat_model": "deepseek-ai/DeepSeek-V2-Chat",
+  "enhancer_prompt": "你是一个专业的AI绘图提示词优化专家。你的任务是优化用户提供的提示词，使其能够生成更好的图像。请保持原始意图，但添加更多细节和艺术风格描述。不要添加不适当的内容。回复时只返回优化后的提示词，不要添加任何解释或其他文字。",
+  "drawing_prefixes": ["绘", "draw"],
+  "image_output_dir": "./plugins/siliconflow2cow/images",
+  "clean_interval": 3,
+  "clean_check_interval": 3600,
+  "supported_models": {
+    "kolors": "Kwai-Kolors/Kolors",
+    "flux.d": "FLUX.1-dev",
+    "flux.s": "FLUX.1-schnell",
+    "sd3": "Stable Diffusion 3 Medium",
+    "sdxl": "Stable Diffusion XL Base 1.0",
+    "sd2": "Stable Diffusion 2.1",
+    "sdt": "Stable Diffusion Turbo",
+    "sdxlt": "Stable Diffusion XL Turbo",
+    "sdxll": "SDXL-Lightning"
+  },
+  "aspect_ratios": {
+    "1:1": "1024x1024",
+    "1:2": "1024x2048",
+    "2:1": "2048x1024",
+    "3:2": "1536x1024",
+    "2:3": "1024x1536",
+    "4:3": "1536x1152",
+    "3:4": "1152x1536",
+    "16:9": "2048x1152",
+    "9:16": "1152x2048"
+  }
+} 
